@@ -78,7 +78,7 @@ public class Stock {
 }
 ```
 #### StockService
-```
+```java
 @Service
 @RequiredArgsConstructor
 public class StockService {
@@ -100,7 +100,7 @@ public class StockService {
 }
 ```
 #### 재고감소 Test
-```
+```java
 @SpringBootTest
 class StockServiceTest {
 
